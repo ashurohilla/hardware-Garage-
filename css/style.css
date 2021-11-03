@@ -170,7 +170,7 @@ p{
 
 /* --------------- Site title ---------------- */
 main .site-title{
-    background: url('../images/microcontroller.jpg');
+    background: url('/microcontroller.jpg');
     background-size: cover;
     height: 110vh;
     display: flex;
