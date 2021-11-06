@@ -171,8 +171,9 @@ p{
 /* --------------- Site title ---------------- */
 main .site-title{
     background: url('./rath.png');
-    background-size: cover;
-    height: 110vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 130vh;
     display: flex;
     justify-content: center;
 }
@@ -183,8 +184,9 @@ main .site-title .site-background{
     color: var(--white);
 }
 
-main .site-title h1, h3{
+main .site-title h1, h2{
     margin: .3rem;
+    color: rgb(8, 34, 34);
 }
 
 main .site-title .btn{
@@ -698,8 +700,18 @@ footer.footer .move-up span:hover{
 
 @media only screen and (max-width: 520px){
     main .blog{
-        height: 125vh;
+        height: 130vh;
     }
+    main .site-title{
+        background: url('./rath.png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+    }
+    
 
     .site-content .post-content > .post-image .post-info{
         display: none;
