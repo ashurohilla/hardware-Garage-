@@ -57,6 +57,7 @@ h2{
 h3{
     font-family: var(--Abel);
     font-size: 1.3rem;
+    color: black;
 }
 
 button.btn{
@@ -170,7 +171,7 @@ p{
 
 /* --------------- Site title ---------------- */
 main .site-title{
-    background: url('./rath.png');
+    background: url();
     background-size: contain;
     background-repeat: no-repeat;
     height: 130vh;
@@ -267,7 +268,7 @@ section .container .owl-nav{
 /* -------x------- Blog Carousel -----x------ */
 
 main .blog{
-    background: url('../images/image\ 2.jpg');
+    background: url();
     background-repeat: no-repeat;
     background-position: right;
     height: 100vh;
@@ -703,13 +704,14 @@ footer.footer .move-up span:hover{
         height: 130vh;
     }
     main .site-title{
-        background: url('./rath.png');
+        background: url('');
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
         height: 60vh;
         display: flex;
         justify-content: center;
+
     }
     
 
