@@ -171,7 +171,7 @@ p{
 
 /* --------------- Site title ---------------- */
 main .site-title{
-    background: url();
+    background: url('back;ground\ image.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     height: 130vh;
@@ -704,7 +704,7 @@ footer.footer .move-up span:hover{
         height: 130vh;
     }
     main .site-title{
-        background: url('');
+        background: url('back;ground\ image.jpg');
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
